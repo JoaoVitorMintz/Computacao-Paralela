@@ -1,11 +1,12 @@
-# include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-# include <unistd.h>
-# include <sys/wait.h>
+#include <unistd.h>
+#include <sys/wait.h>
 
 int main () {
+    int N = 4;
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < N; i++) {
         pid_t pid = fork ();
         if (pid < 0) {
             fprintf(stderr, "Fork falhou!\n"); return 1;
