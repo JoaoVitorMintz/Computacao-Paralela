@@ -1,4 +1,4 @@
-// Soma de vetor com corrida
+// Soma de vetor com condição de corrida
 
 #include <stdio.h>
 #include <pthread.h>
