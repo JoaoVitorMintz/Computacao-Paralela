@@ -1,0 +1,13 @@
+# Ignorar VSCode
+.vscode/
+
+# Ignorar arquivos objeto e binários comuns
+*.o
+*.out
+
+# Whitelist: ignorar tudo nas pastas Lab, mas re-incluir apenas .c, .h e .md
+Lab0[1-7]/*
+!Lab0[1-7]/*.c
+!Lab0[1-7]/*.h
+!Lab0[1-7]/*.md
+!Lab0[1-7]/Makefile
